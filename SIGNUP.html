@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>SIGN UP</title>
+    <style>
+        body
+        {
+            background-image: linear-gradient(rgba(0.5,0.5,0.5,0.3),rgba(0.5,0.5,0.5,0.3)),url('lg3.avif');
+            height: 150vh;
+            background-size: cover;
+            background-position: center;
+            min-height: 100px;
+            margin: 110px auto;
+            width: 50%;
+            padding: 50px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color:lightblue;
+            text-align: center;
+        }
+        h1
+        {
+            font-size:50px;
+            color: black;
+        }
+        label 
+        {
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:black;
+        }
+        input 
+        {
+            margin: 15px;
+            padding: 10px;
+            border: 1px solid transparent;
+        }
+        input[type="submit"] 
+        {
+            background-color:black;
+            color: cornsilk;
+            font-weight: bold;
+            padding: 10px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover 
+        {
+            background-color:black;
+        }
+    </style>
+<body>
+    <div class="container">
+        <h1>SIGN UP (For New Users)</h1>
+        <form id="signup page" action="/signup" method="post">
+            <label for="FULLNAME">FULL NAME:</label><br>
+            <input type="text" id="FULLNAME" name="FULLNAME" required><br>
+            <label for="EMAILID">EMAIL ADDRESS:</label><br>
+            <input type="text" id="EMAILID" name="EMAILID" required><br>
+            <label for="username">CREATE USENAME:</label><br>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br>
+            <input type="submit" value="SIGN UP">
+    </div>
+</body>
+</html>
